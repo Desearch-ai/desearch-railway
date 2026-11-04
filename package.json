@@ -1,0 +1,14 @@
+{
+  "name": "railway-desearch",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "A small HTTP wrapper for Desearch web search, ready for Railway.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "live": "node live_check.js"
+  }
+}
